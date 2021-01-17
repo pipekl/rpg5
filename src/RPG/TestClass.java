@@ -1,3 +1,10 @@
+package RPG;
+
+import RPG.Enemy.Boss;
+import RPG.Enemy.Ninja;
+import RPG.Enemy.Wolf;
+import RPG.Hero.Hero;
+
 import java.util.Scanner;
 
 public class TestClass {

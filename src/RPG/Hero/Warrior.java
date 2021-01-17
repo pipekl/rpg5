@@ -1,3 +1,8 @@
+package RPG.Hero;
+
+import RPG.Enemy.Enemy;
+import RPG.Item;
+
 import java.util.ArrayList;
 
 public class Warrior extends Hero {
@@ -45,7 +50,7 @@ public class Warrior extends Hero {
 
     @Override
     public String toString() {
-        return "Warrior{" +
+        return "RPG.Hero.Warrior{" +
                 "nickName='" + nickName + '\'' +
                 ", exp=" + exp +
                 ", hp=" + hp +

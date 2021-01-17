@@ -1,3 +1,8 @@
+package RPG.Hero;
+
+import RPG.Enemy.Enemy;
+import RPG.Item;
+
 import java.util.ArrayList;
 
 public class Archer extends Hero {

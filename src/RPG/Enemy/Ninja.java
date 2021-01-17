@@ -1,9 +1,11 @@
-public class Boss extends Enemy{
-    public Boss() {
-        super.itemBonus = 5;
-        super.hp = 20000;
-        super.damage = 200;
-        super.exp = 10000;
+package RPG.Enemy;
+
+public class Ninja extends Enemy{
+    public Ninja() {
+        super.itemBonus = 3;
+        super.hp = 1000;
+        super.damage = 150;
+        super.exp = 1200;
     }
 
     public int getItemBonus() {
@@ -16,7 +18,7 @@ public class Boss extends Enemy{
 
     @Override
     public String toString() {
-        return "Boss{" +
+        return "Нинзя {" +
                 "hp=" + hp +
                 ", damage=" + damage +
                 ", itemBonus=" + itemBonus +

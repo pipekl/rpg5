@@ -1,11 +1,16 @@
+package RPG.Hero;
+
+import RPG.Enemy.Enemy;
+import RPG.Item;
+
 import java.util.ArrayList;
 
-abstract class Hero {
+public abstract class Hero {
 
-    protected String nickName;
-    protected int exp, hp, mana;
-    protected ArrayList<Item> items = new ArrayList<>();
-    protected int damage;
+    public String nickName;
+    public int exp, hp, mana;
+    public ArrayList<Item> items = new ArrayList<>();
+    public int damage;
 
     public Hero(String nickName) {
         this.nickName = nickName;

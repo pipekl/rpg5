@@ -1,3 +1,4 @@
+package RPG;
 
 public class Map {
     String [][] map = {{"I___I","WOLF_","I___I","I___I","I___I","I___I","I___I","I___I","I___I","I___I"},

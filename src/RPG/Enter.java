@@ -1,3 +1,10 @@
+package RPG;
+
+import RPG.Hero.Archer;
+import RPG.Hero.Hero;
+import RPG.Hero.Magician;
+import RPG.Hero.Warrior;
+
 import java.util.Scanner;
 
 public class Enter{

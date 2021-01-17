@@ -1,5 +1,10 @@
+package RPG;
+
+import RPG.Enemy.Enemy;
+import RPG.Hero.Hero;
+
 public class Item {
-    int price, weight, type;
+    public int price, weight, type;
     public Item(int price, int weight, int type){
         this.price = price;
         this.weight = weight;

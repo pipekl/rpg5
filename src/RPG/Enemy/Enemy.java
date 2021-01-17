@@ -1,6 +1,8 @@
+package RPG.Enemy;
+
 abstract public class Enemy {
-    int hp, damage, itemBonus;
-    int exp;
+    public int hp, damage, itemBonus;
+    public int exp;
 
     public abstract int getItemBonus();
 
